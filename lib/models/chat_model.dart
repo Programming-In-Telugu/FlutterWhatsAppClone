@@ -4,8 +4,10 @@ class ChatModel {
   final String time;
   final String avatarUrl;
 
+
   ChatModel({this.name, this.message, this.time, this.avatarUrl});
 }
+// this is new comment
 
 List<ChatModel> dummyData = [
   new ChatModel(
